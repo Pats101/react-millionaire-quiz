@@ -5,6 +5,7 @@ import { dataQuetionaire, moneyPyramid } from "../src/dataSource";
 import Timer from "./components/timer/Timer";
 
 function App() {
+  const [username, setUsername] = useState(null);
   const [questionNumber, setQuestionNumber] = useState(1);
   const [stop, setStop] = useState(false);
   const [earned, setEarned] = useState("R 0");
