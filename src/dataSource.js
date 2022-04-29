@@ -285,6 +285,50 @@ export const dataQuetionaire = [
             },
         ],
     },
+    {
+        id: 14,
+        question: "What is always coming but never arrives?",
+        answers: [
+            {
+                text: "Stars",
+                correct: false,
+            },
+            {
+                text: "Tomorrow",
+                correct: true,
+            },
+            {
+                text: "Rain",
+                correct: false,
+            },
+            {
+                text: "Sun",
+                correct: false,
+            },
+        ],
+    },
+    {
+        id: 15,
+        question: "What word is spelled incorrectly in every single dictionary?",
+        answers: [
+            {
+                text: "Favorite",
+                correct: false,
+            },
+            {
+                text: "kakorrhaphiophobia",
+                correct: false,
+            },
+            {
+                text: "Favourite",
+                correct: false,
+            },
+            {
+                text: "Incorrectly",
+                correct: true,
+            },
+        ],
+    },
 ]
 
 export const moneyPyramid = [
